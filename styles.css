@@ -1,66 +1,52 @@
 
-.container{
+.post{
     width: 30%;
     margin: 0 auto;
     background-color: #fff;
 }
-
-.section-top{
+.post-header{
     display: flex;
     width: 100%;
     padding: 1em;
     box-sizing: border-box;
 }
-
-.logo{
+.hmtl-logo{
     width: 10%;
 }
 
-.logo i{
+.hmtl-logo i{
     font-size: 3em;
 }
-
-.tittle{
+.title{
     width: 80%;
     line-height: 0.1em;
+    padding: 1em;
 }
-
-.tittle p{
+.title p{
     font-size: 1em;
 }
-
-.options{
+.menu{
     width: 10%;
+    padding: 1em;
 }
 
-.options i{
+.menu i{
     font-size: 2.5em;
     float: right;
 }
-
 .icons i{
     margin-right: 0.2em;
+    font-size: 2em;
 }
-
-.marca{
-    float: right;
-}
-
-.section-middle{
+.post-img, img{
     width: 100%;
-}
-
-.post-image img{
-    width: 100%;    
 }
 .icons{
     padding: 0.5em;
 }
-
-.icons i{
-    font-size: 2.5em;
+#mark {
+    float: right;
 }
-
 .content{
     padding: 0 0.5em 1em 0.5em;
 }
